@@ -1,9 +1,7 @@
 // export * from "./main.js";
 // console.log("class");
-
-
 export class Pokemon{
-    constructor(nom,numero,type1,type2,movePool,stat,sprite,backSprite){
+    constructor(nom,numero,type1,type2,sprite,backSprite){
         this.nom = nom;
         this.numero = numero;
         this.type1 = type1;
